@@ -1,0 +1,43 @@
+.home-page {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.inline-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.search-submit {
+  width: 60px;
+}
+
+.home-header {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .greet {
+    font-size: 8vw;
+  }
+  .home-description {
+    font-size: 5vw;
+  }
+}

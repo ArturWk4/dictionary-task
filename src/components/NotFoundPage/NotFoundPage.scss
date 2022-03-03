@@ -1,0 +1,38 @@
+.not-found-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  h1 {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  h2 {
+    margin-top: 5px;
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+  .back-link {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .not-found-page {
+    h1 {
+      font-size: 9vw;
+    }
+    h2 {
+      font-size: 7vw;
+    }
+    h3 {
+      font-size: 5vw;
+    }
+    .back-link {
+      font-size: 5vw;
+    }
+  }
+}
